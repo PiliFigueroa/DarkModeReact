@@ -1,0 +1,49 @@
+.form {
+    width: 70%;
+    border-radius: 5px;
+    background-color: var(--background);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-secondary);
+}
+
+.form-group-check label {
+    margin: 10px;
+    color: var(--text-primary);
+}
+
+.form-group input,
+.form-group-check input {
+    padding: 5px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+}
+
+.submit {
+    margin: 5px 0;
+    background-color: var(--button);
+    color: var(--text-primary);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.submit:hover {
+    background-color: var(--button);
+    cursor: pointer;
+}
